@@ -5,7 +5,7 @@
 # end
 
 # Make sure each ruby method returns a string containing a valid SQL statement.
-# select project_id from pledges join projects 
+# select project_id from pledges join projects
 def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_name
 "SELECT projects.title, SUM(pledges.amount)
  FROM projects
